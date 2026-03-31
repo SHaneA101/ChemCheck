@@ -1,0 +1,17 @@
+{
+  "name": "daily-checklist-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily checklist app with hourly checks, history, and fault reporting.",
+  "main": "netlify/functions/api.js",
+  "scripts": {
+    "start": "netlify dev",
+    "build": "node -e \"console.log('Static site ready for Netlify')\""
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4"
+  }
+}
